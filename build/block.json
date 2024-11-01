@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "snap/deezer",
+  "version": "0.1.0",
+  "title": "Deezer Widget",
+  "category": "widgets",
+  "icon": "embed-audio",
+  "description": "Embeds a Deezer widget into your site.",
+  "supports": {
+    "html": false,
+    "align": true
+  },
+  "attributes": {
+    "url": {
+      "type": "string",
+      "selector": "div",
+      "default": ""
+    }
+  },
+  "textdomain": "snap",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
